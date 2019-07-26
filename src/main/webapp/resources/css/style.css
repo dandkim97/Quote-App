@@ -1,0 +1,20 @@
+body {
+	background-color: lightblue;
+}
+
+h2 {
+	color: blue;
+	text-align: center;
+}
+
+.centered{
+	margin-top: 75px;
+}
+
+.innertext{
+	color: black;
+}
+
+.mainColor{
+	background-color: green;
+}
