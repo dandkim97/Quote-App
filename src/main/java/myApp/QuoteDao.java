@@ -41,4 +41,13 @@ public class QuoteDao {
 			}
 		});
 	}
+	public int createTestCases() {
+		String SQL = "INSERT INTO Quote(author, message) VALUES"
+				+ "('Carol Burnett','Only I can change my life. No one can do it for me.'),"
+				+ "('Mark Twain', 'The secret of getting ahead is getting started.'),"
+				+ "('Pablo Picasso','Every child is an artist. The problem is how to remain an artist once he grows up.'),"
+				+ "('Woodrow Wilson','You are not here merely to make a living. You are here in order to enable the world to live more amply, with greater vision, with a finer spirit of hope and achievement. You are here to enrich the world, and you impoverish yourself if you forget the errand.'),"
+				+ "('George Herbert','Do not wait; the time will never be just right. Start where you stand, and work with whatever tools you may have at your command, and better tools will be found as you go along.')";
+		return template.update(SQL);
+	}
 }

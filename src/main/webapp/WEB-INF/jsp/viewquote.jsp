@@ -18,7 +18,6 @@ a {
 	<h1>Quote List</h1>
 	<table border="2" width="70%" cellpadding="2">
 	<tr>
-		<th>Id</th>
 		<th>Author</th>
 		<th>Message</th>
 		<th>Edit</th>
@@ -26,7 +25,6 @@ a {
 	</tr>
 	<c:forEach var="quote" items="${list}">
 		<tr>
-			<td>${quote.id}</td>
 			<td>${quote.author}</td>
 			<td>${quote.message}</td>
 			<td><a href="editquote/${quote.id}">Edit</a></td>

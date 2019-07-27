@@ -8,6 +8,11 @@
 <meta charset="ISO-8859-1">
 <title>Add New Quote</title>
 </head>
+<style>
+a {
+	color: green;
+}
+</style>
 <body>
 	<h1>Add New Quote</h1>
 	<form:form method="post" action="save">

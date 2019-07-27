@@ -20,12 +20,13 @@ public class AppController {
 	
 	@GetMapping
 	public String index(Model m) {
-//		if(dao.getQuotes().size() == 0) {
-//			add a quote if there is not quote to prevent err
-//		}
+		if(dao.getQuotes().size() == 0) {
+			dao.createTestCases();
+		}
 		List<Quote> list = dao.getQuotes();
 		Random rand = new Random();
 		int num = rand.nextInt(list.size());
+		m.addAttribute("rand", rand);
 		m.addAttribute("num", num);
 		m.addAttribute("list", list);
 		return "home";

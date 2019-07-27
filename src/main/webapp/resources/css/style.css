@@ -1,20 +1,17 @@
 body {
 	background-color: lightblue;
+	color: lightblue;
 }
 
-h2 {
-	color: blue;
-	text-align: center;
-}
-
-.centered{
+.quote-box {
 	margin-top: 75px;
+	max-width: 600px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.innertext{
-	color: black;
-}
-
-.mainColor{
-	background-color: green;
+.quote-box-color {
+	background-color: white;
 }

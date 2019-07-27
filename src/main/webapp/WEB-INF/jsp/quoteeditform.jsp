@@ -9,6 +9,11 @@
 <meta charset="ISO-8859-1">
 <title>Edit Quote</title>
 </head>
+<style>
+a {
+	color: green;
+}
+</style>
 <body>
 	
 	<h1>Edit Quote</h1>
