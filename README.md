@@ -8,7 +8,7 @@ Whenever you need a bit of a boost! :rocket:
 - Maven 3.6.1
 - Apache Tomcat 9.0.12
 - MySQL 8.0.12
-- Eclipse Kepler
+- Eclipse
 
 ## Setup
 First, clone the code file from the repo.
